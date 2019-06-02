@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-Hi, my name is Eugen. Thank you for visiting my page.

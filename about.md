@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Eugen. I am glad that you visited my webpage.
-
+Hi, my name is Eugen. Thank you for visiting my webpage.
