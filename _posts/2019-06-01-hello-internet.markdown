@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello Internet!"
+title:  "Hello, Internet!"
 date:   2019-06-01 08:41:51 +0200
 categories: intro
 ---
