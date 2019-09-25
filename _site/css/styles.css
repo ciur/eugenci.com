@@ -2,3 +2,7 @@ img {
     padding: 0 2rem 1rem 0;
     float: left;
 }
+
+body .site-header {
+    border-top: 0;
+}
