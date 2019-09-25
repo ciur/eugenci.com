@@ -1,13 +1,21 @@
 ---
 layout: post
-title:  "On Simple Skills"
+title:  "On Simple Skills - Chess"
 date:   2019-09-24 08:00:00 +0200
 categories: intro
 ---
 
+Since 2 years I have a new hobby - chess. I started from an absolute beginner level with
+zero prior experience.
+
 ![chess](/assets/chess.png)
 
-One can learn basic chess theory in matter of days or at most couple of weeks of youtube videos on the subject; maybe one or two books will help as well.
+One can learn basic chess theory in matter of days or at most couple of weeks
+of youtube videos on the subject; maybe one or two books will help as well. As
+a matter of the fact in Germany chess is taught in primary school. I have seen
+many 6 or 7 years kids pretty good with chess basics. My point here is that as
+a skill it is defined by few very simple rules - so simple - that  that 6 y.o.
+kids can learn the them without much effort.
 
 However, what I find absolutely amazing is how much practice is necessary to
 truly master the game. By mastering the game I mean having [ELO rating](https://en.wikipedia.org/wiki/Chess_rating_system#Elo_rating_system) of 
