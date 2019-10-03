@@ -3,8 +3,8 @@ permalink: /imprint/
 layout: default
 ---
 
-Imprint
-========
+Impressum/Imprint
+==================
 
     Eugen Ciur
     Löwenberger Str. 4

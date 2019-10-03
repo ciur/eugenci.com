@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-03T15:09:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">On Simple Skills - Chess</title><link href="http://localhost:4000/intro/2019/09/24/simple-skills-chess.html" rel="alternate" type="text/html" title="On Simple Skills - Chess" /><published>2019-09-24T08:00:00+02:00</published><updated>2019-09-24T08:00:00+02:00</updated><id>http://localhost:4000/intro/2019/09/24/simple-skills-chess</id><content type="html" xml:base="http://localhost:4000/intro/2019/09/24/simple-skills-chess.html">Since 2 years I have a new hobby - chess. I started from an absolute beginner level with
-zero prior experience.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-10-03T15:19:21+02:00</updated><id>/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">On Simple Skills - Chess</title><link href="/intro/2019/09/24/simple-skills-chess.html" rel="alternate" type="text/html" title="On Simple Skills - Chess" /><published>2019-09-24T08:00:00+02:00</published><updated>2019-09-24T08:00:00+02:00</updated><id>/intro/2019/09/24/simple-skills-chess</id><content type="html" xml:base="/intro/2019/09/24/simple-skills-chess.html">&lt;p&gt;Since 2 years I have a new hobby - chess. I started from an absolute beginner level with
+zero prior experience.&lt;/p&gt;
 
-![chess](/assets/chess.png)
+&lt;p&gt;&lt;img src=&quot;/assets/chess.png&quot; alt=&quot;chess&quot; /&gt;&lt;/p&gt;
 
-One can learn basic chess theory in matter of days or at most couple of weeks
+&lt;p&gt;One can learn basic chess theory in matter of days or at most couple of weeks
 of youtube videos on the subject; maybe one or two books will help as well. As
 a matter of the fact in Germany chess is taught in primary school. I have seen
 many 6 or 7 years kids pretty good with chess basics. My point here is that as
 a skill it is defined by few very simple rules - so simple - that  that 6 y.o.
-kids can learn the them without much effort.
+kids can learn the them without much effort.&lt;/p&gt;
 
-However, what I find absolutely amazing is how much practice is necessary to
-truly master the game. By mastering the game I mean having [ELO rating](https://en.wikipedia.org/wiki/Chess_rating_system#Elo_rating_system) of 
+&lt;p&gt;However, what I find absolutely amazing is how much practice is necessary to
+truly master the game. By mastering the game I mean having &lt;a href=&quot;https://en.wikipedia.org/wiki/Chess_rating_system#Elo_rating_system&quot;&gt;ELO rating&lt;/a&gt; of 
 say 1800. For me, following a moderate self-taught training, I needed 2 years
 to increase my ELO number by 200 points - from a weak 1300 to a strong 1500
 (for classical games with 15 minutes per side and 15 seconds increment).
-I think I will need another 10 years of training to cross ELO 2000.
+I think I will need another 10 years of training to cross ELO 2000.&lt;/p&gt;
 
-It is fascinating - that for a simple skill such as chess game play, a person
+&lt;p&gt;It is fascinating - that for a simple skill such as chess game play, a person
 needs around 10 or 12 years of moderate practice, with only a minimal theory,
 to master the subject. For Bobby Fischer it took exactly 23 years (counting
-from his first chess experience) to becomes World Champion in 1972.
+from his first chess experience) to becomes World Champion in 1972.&lt;/p&gt;
 
-What about more complex skills - how much time of practical experience it is
+&lt;p&gt;What about more complex skills - how much time of practical experience it is
 necessary to really master computer programming? Computers, where for theory
 alone is elaborate! What about mastering the subject of how to implement
-distributed computer network systems? Compilers? Computer operating systems?</content><author><name></name></author><summary type="html">Since 2 years I have a new hobby - chess. I started from an absolute beginner level with zero prior experience.</summary></entry><entry><title type="html">Hello, Internet!</title><link href="http://localhost:4000/intro/2019/06/01/hello-internet.html" rel="alternate" type="text/html" title="Hello, Internet!" /><published>2019-06-01T08:41:51+02:00</published><updated>2019-06-01T08:41:51+02:00</updated><id>http://localhost:4000/intro/2019/06/01/hello-internet</id><content type="html" xml:base="http://localhost:4000/intro/2019/06/01/hello-internet.html">We live in a fantastic world, a world where information is distributed way faster
+distributed computer network systems? Compilers? Computer operating systems?&lt;/p&gt;</content><author><name></name></author><summary type="html">Since 2 years I have a new hobby - chess. I started from an absolute beginner level with zero prior experience.</summary></entry><entry><title type="html">Hello, Internet!</title><link href="/intro/2019/06/01/hello-internet.html" rel="alternate" type="text/html" title="Hello, Internet!" /><published>2019-06-01T08:41:51+02:00</published><updated>2019-06-01T08:41:51+02:00</updated><id>/intro/2019/06/01/hello-internet</id><content type="html" xml:base="/intro/2019/06/01/hello-internet.html">&lt;p&gt;We live in a fantastic world, a world where information is distributed way faster
 than it can be assimilated: in a snap of fingers  new ideas are delivered to the
 whole planet, howerver, it takes days, months or even years that those same ideas 
-to be learned and well understood.</content><author><name></name></author><summary type="html">We live in a fantastic world, a world where information is distributed way faster than it can be assimilated: in a snap of fingers new ideas are delivered to the whole planet, howerver, it takes days, months or even years that those same ideas to be learned and well understood.</summary></entry></feed>
+to be learned and well understood.&lt;/p&gt;</content><author><name></name></author><summary type="html">We live in a fantastic world, a world where information is distributed way faster than it can be assimilated: in a snap of fingers new ideas are delivered to the whole planet, howerver, it takes days, months or even years that those same ideas to be learned and well understood.</summary></entry></feed>
