@@ -3,6 +3,12 @@ img {
     float: left;
 }
 
-body .site-header {
-    border-top: 0;
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+     list-style-type: none;
+     margin: 1rem;
 }

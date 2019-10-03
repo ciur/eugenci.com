@@ -2,3 +2,13 @@ img {
     padding: 0 2rem 1rem 0;
     float: left;
 }
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+     list-style-type: none;
+     margin: 1rem;
+}
