@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-10-06T07:38:51+02:00</updated><id>/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">On Simple Skills - Chess</title><link href="/intro/2019/09/24/simple-skills-chess.html" rel="alternate" type="text/html" title="On Simple Skills - Chess" /><published>2019-09-24T08:00:00+02:00</published><updated>2019-09-24T08:00:00+02:00</updated><id>/intro/2019/09/24/simple-skills-chess</id><content type="html" xml:base="/intro/2019/09/24/simple-skills-chess.html">&lt;p&gt;Since 2 years I have a new hobby - chess. I started from an absolute beginner level with
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-11-19T13:09:32+01:00</updated><id>/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">Biggest files and directories in Linux</title><link href="/devops/2019/11/19/biggest-files-and-directories-in-linux.html" rel="alternate" type="text/html" title="Biggest files and directories in Linux" /><published>2019-11-19T07:00:00+01:00</published><updated>2019-11-19T07:00:00+01:00</updated><id>/devops/2019/11/19/biggest-files-and-directories-in-linux</id><content type="html" xml:base="/devops/2019/11/19/biggest-files-and-directories-in-linux.html">&lt;p&gt;When troubleshooting a Linux server, one of the first things to check is system space.
+A simple command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;df -h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;will display in human readable format used storage space.
+Example of output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Filesystem      Size  Used Avail Use% Mounted on
+udev            962M     0  962M   0% /dev
+tmpfs           200M  7.0M  193M   4% /run
+/dev/sda         49G   39G  7.6G  84% /
+tmpfs           996M     0  996M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           996M     0  996M   0% /sys/fs/cgroup
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In case that some device has not much space left - which file or directory 
+uses most of its space? In example above, device /dev/sda mounted on root (/)
+uses 84%.&lt;/p&gt;
+
+&lt;p&gt;Following (du = disk usage) command comes handy:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;du -h  /  | sort -h -r | head -n 10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It will display top 10 biggest files or directories in Linux system.
+Example from my system:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;7.7G    /
+5.0G    /var
+4.0G    /var/lib
+3.6G    /var/lib/jenkins
+3.0G    /var/lib/jenkins/jobs
+2.1G    /usr
+1.4G    /var/lib/jenkins/jobs/04-ax/jobs
+1.4G    /var/lib/jenkins/jobs/04-ax
+1.4G    /usr/lib
+1.1G    /var/lib/jenkins/jobs/04-ax/jobs/build-whl/builds
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aha! jenkins folder /var/lib/jenkins/jobs/04-ax/jobs needs some clean up!&lt;/p&gt;</content><author><name></name></author><summary type="html">When troubleshooting a Linux server, one of the first things to check is system space. A simple command:</summary></entry><entry><title type="html">On Simple Skills - Chess</title><link href="/intro/2019/09/24/simple-skills-chess.html" rel="alternate" type="text/html" title="On Simple Skills - Chess" /><published>2019-09-24T08:00:00+02:00</published><updated>2019-09-24T08:00:00+02:00</updated><id>/intro/2019/09/24/simple-skills-chess</id><content type="html" xml:base="/intro/2019/09/24/simple-skills-chess.html">&lt;p&gt;Since 2 years I have a new hobby - chess. I started from an absolute beginner level with
 zero prior experience.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/chess.png&quot; alt=&quot;chess&quot; /&gt;&lt;/p&gt;
