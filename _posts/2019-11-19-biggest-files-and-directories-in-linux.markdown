@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Biggest files and directories in Linux"
+title:  "Biggest Files and Directories in Linux"
 date:   2019-11-19 08:00:00 +0200
 categories: devops
 ---
 
-When troubleshooting a Linux server, one of the first things to check is system space.
-A simple command:
+When troubleshooting a Linux server, one of the first things to check is
+system space. A simple command:
 
     df -h
 
@@ -22,9 +22,9 @@ Example of output:
     tmpfs           996M     0  996M   0% /sys/fs/cgroup
 
 
-In case that some device has not much space left - which file or directory 
-uses most of its space? In example above, device /dev/sda mounted on root (/)
-uses 84%.
+In case that some device has little space left - it makes sense to ask
+yourself which file or directory  uses most of disk space? In example above,
+device /dev/sda mounted on root (/) uses 84%.
 
 Following (du = disk usage) command comes handy:
 

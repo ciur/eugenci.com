@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-11-19T13:09:32+01:00</updated><id>/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">Biggest files and directories in Linux</title><link href="/devops/2019/11/19/biggest-files-and-directories-in-linux.html" rel="alternate" type="text/html" title="Biggest files and directories in Linux" /><published>2019-11-19T07:00:00+01:00</published><updated>2019-11-19T07:00:00+01:00</updated><id>/devops/2019/11/19/biggest-files-and-directories-in-linux</id><content type="html" xml:base="/devops/2019/11/19/biggest-files-and-directories-in-linux.html">&lt;p&gt;When troubleshooting a Linux server, one of the first things to check is system space.
-A simple command:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-11-19T13:13:11+01:00</updated><id>/feed.xml</id><title type="html">Eugen Ciur’s blog</title><subtitle>Fantastic blog!</subtitle><entry><title type="html">Biggest Files and Directories in Linux</title><link href="/devops/2019/11/19/biggest-files-and-directories-in-linux.html" rel="alternate" type="text/html" title="Biggest Files and Directories in Linux" /><published>2019-11-19T07:00:00+01:00</published><updated>2019-11-19T07:00:00+01:00</updated><id>/devops/2019/11/19/biggest-files-and-directories-in-linux</id><content type="html" xml:base="/devops/2019/11/19/biggest-files-and-directories-in-linux.html">&lt;p&gt;When troubleshooting a Linux server, one of the first things to check is
+system space. A simple command:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;df -h
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -16,9 +16,9 @@ tmpfs           5.0M     0  5.0M   0% /run/lock
 tmpfs           996M     0  996M   0% /sys/fs/cgroup
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;In case that some device has not much space left - which file or directory 
-uses most of its space? In example above, device /dev/sda mounted on root (/)
-uses 84%.&lt;/p&gt;
+&lt;p&gt;In case that some device has little space left - it makes sense to ask
+yourself which file or directory  uses most of disk space? In example above,
+device /dev/sda mounted on root (/) uses 84%.&lt;/p&gt;
 
 &lt;p&gt;Following (du = disk usage) command comes handy:&lt;/p&gt;
 

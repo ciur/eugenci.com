@@ -25,15 +25,15 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Biggest files and directories in Linux</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Biggest Files and Directories in Linux</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2019-11-19T07:00:00+01:00" itemprop="datePublished">Nov 19, 2019
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>When troubleshooting a Linux server, one of the first things to check is system space.
-A simple command:</p>
+    <p>When troubleshooting a Linux server, one of the first things to check is
+system space. A simple command:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df -h
 </code></pre></div></div>
@@ -50,9 +50,9 @@ tmpfs           5.0M     0  5.0M   0% /run/lock
 tmpfs           996M     0  996M   0% /sys/fs/cgroup
 </code></pre></div></div>
 
-<p>In case that some device has not much space left - which file or directory 
-uses most of its space? In example above, device /dev/sda mounted on root (/)
-uses 84%.</p>
+<p>In case that some device has little space left - it makes sense to ask
+yourself which file or directory  uses most of disk space? In example above,
+device /dev/sda mounted on root (/) uses 84%.</p>
 
 <p>Following (du = disk usage) command comes handy:</p>
 
