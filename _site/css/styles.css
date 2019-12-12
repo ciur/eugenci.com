@@ -12,3 +12,7 @@ footer ul li {
      list-style-type: none;
      margin: 1rem;
 }
+
+.site-header {
+    border-top: none;
+}
